@@ -638,3 +638,15 @@ nav {
     gap: 2rem;
   }
 }
+
+label {
+  display: block;
+  font:
+    1rem 'Fira Sans',
+    sans-serife;
+}
+
+input,
+label{
+  margin: 0.4rem 0;
+}
