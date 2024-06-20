@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="styles.css">
-    <title>Formulário de Feedback</title>
+	<!-- <link rel="stylesheet" href="styles.css"> -->
+     	<title>Formulário de Feedback</title>
 </head>
 <body>
-    <div style="max-width: 600px; margin: auto; padding: 20px; border: 1px solid; border-radius: 5px;">
-        <!-- Div sem especificar cores para a borda e fundo -->
-        <div style="text-align: center; margin-bottom: 20px;">
-            <img src="logosotteu1.png" alt="Logo da empresa" style="max-width: 100px; height: auto;">
-        </div>
-        <h2>Formulário de Feedback</h2>
-        <form action="#" method="post">
-            <div style="margin-bottom: 20px;">
-                <label for="nome">Nome:</label><br>
-                <input type="text" id="nome" name="nome" required style="width: 100%; padding: 8px; font-size: 1em; border: 1px solid; border-radius: 4px;">
-                <!-- Input sem especificar cor para a borda -->
-            </div>
-            <div style="margin-bottom: 20px;">
-                <label for="email">E-mail:</label><br>
-                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; font-size: 1em; border: 1px solid; border-radius: 4px;">
-                <!-- Input sem especificar cor para a borda -->
-            </div>
-            <div style="margin-bottom: 20px;">
-                <label for="satisfacao">Grau de satisfação:</label><br>
-                <select id="satisfacao" name="satisfacao" required style="width: 100%; padding: 8px; font-size: 1em; border: 1px solid; border-radius: 4px;">
-                    <option value="">Selecione...</option>
-                    <option value="excelente">Excelente</option>
-                    <option value="bom">Bom</option>
-                    <option value="regular">Regular</option>
-                    <option value="ruim">Ruim</option>
-                </select>
-                <!-- Select sem especificar cor para a borda -->
-            </div>
-            <div style="margin-bottom: 20px;">
-                <label for="comentarios">Comentários adicionais:</label><br>
-                <textarea id="comentarios" name="comentarios" style="width: 100%; padding: 8px; font-size: 1em; border: 1px solid; border-radius: 4px;" rows="4"></textarea>
-                <!-- Textarea sem especificar cor para a borda -->
-            </div>
-            <button type="submit" style="padding: 10px 20px; font-size: 1em; border: none; border-radius: 4px;">Enviar Feedback</button>
-            <!-- Botão sem especificar cor para o fundo e texto -->
-        </form>
-    </div>
+    <table width="100%" height="100%">
+        <tr>
+            <td align="center" valign="middle">
+                <div>
+                    <div>
+                        <img src="logosotteu1.png" alt="Logo da empresa" width="170" height="170">
+                    </div>
+                    <h2>Formulário de Feedback</h2>
+                    <form action="#" method="post">
+                        <div>
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="satisfacao">Grau de satisfação:</label><br>
+                            <select id="satisfacao" name="satisfacao" required>
+                                <option value="">Selecione...</option>
+                                <option value="excelente">Excelente</option>
+                                <option value="bom">Bom</option>
+                                <option value="regular">Regular</option>
+                                <option value="ruim">Ruim</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="comentarios">Comentários adicionais:</label><br>
+                            <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                        </div>
+                        <button type="submit">Enviar Feedback</button>
+                    </form>
+                </div>
+            </td>
+        </tr>
+    </table>
 </body>
 </html>
