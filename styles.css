@@ -260,6 +260,7 @@ nav {
   overflow: hidden;
 }
 
+
 .story__container {
   display: grid;
   gap: 4rem;
@@ -552,19 +553,12 @@ nav {
     width: unset;
     background-color: transparent;
   }
-
-  .nav__logo img {
-    max-width: 75px;
+  
+.logo-topo{
+  display:flex;
+  width: 800px;
+  padding-left: 525px;
   }
-
-  .logo-white {
-    display: none;
-  }
-
-  .logo-dark {
-    display: flex;
-  }
-
   .nav__menu__btn {
     display: none;
   }
