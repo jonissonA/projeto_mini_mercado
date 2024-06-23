@@ -3,62 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro Clientes</title>
+    <title>Cadastro de Clientes</title>
+    <link rel="stylesheet" href="/Sprint integrantes/Pasta do Fabiano/stylefab.css">
 </head>
+
+        <img src="/Sprint integrantes/Pasta do Paulo/logosotteu1.png" class="logo-cadastro" id="logo-cadastro"></img>
 <body>
     
-   <center>
-    <header>
-        <div class="container">
-            <img src="logo_mercado.png" width="170" height="170" />
-        </div>
-        <h1>Cadastro Cliente</h1>
-    </header>
-    
-    <div >
+    <div class="container">
         
-        <label for="name"> Digite o seu nome: </label>
-        <input type="text" id="name" name="name" riquired minlength="4" maxlength="42" size="10"/>   
+        <h2>Cadastro de Clientes</h2>
 
-        <br>
-        <br>
-
-        <label for="cep"> Digite seu cep: </label>
-        <input type="text" class="cep" name="cep" riquired maxlength="10" size="10"/>
-    
-        <br>
-        <br>  
-
-        <label for="numero"> Digite o numero da casa: </label>
-        <input type="text" class="numero" name="numero" riquired maxlength="4" size="10"/>
-    
-        <br>
-        <br>
-
-        <label for="telefone"> Digite seu Telefone: </label>
-        <input type="text" class="telefone" name="telefone" riquired maxlenght="11" size="10"/>
-    
-        <br>
-        <br>
-
-        <label for="email"> Digite seu email: </label>
-        <input type="text" class="email" name="email" riquired maxlenght="40" size="10"/>
-    
-        <br>
-        <br>
-   
-        <label for="cpf"> Digite seu CPF: </label>
-        <input type="text" class="cpf" name="cpf" riquired maxlenght="14" size="10"/>  
-        
-        <br>
-        <br>
-        
-        <button> Cadastrar-se </button>
-    
+        <form id="customerForm">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Digite seu telefone" pattern="\d{10,11}" title="Digite um telefone válido" required>
+            </div>
+            <div class="form-group">
+                <label for="cep">CEP:</label>
+                <input type="text" id="cep" name="cep" placeholder="Digite seu CEP" pattern="\d{5}-?\d{3}" title="Digite um CEP válido" required>
+            </div>
+            <div class="form-group">
+                <label for="houseNumber">Número da Casa:</label>
+                <input type="text" id="houseNumber" name="houseNumber" placeholder="Digite o número da casa" required>
+            </div>
+            <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" title="Digite um CPF válido" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
     </div>
-    
-  
-   </center>
- 
+
+    <script src="script.js"></script>
 </body>
+
 </html>

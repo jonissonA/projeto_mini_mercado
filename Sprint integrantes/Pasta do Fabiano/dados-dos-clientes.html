@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados dos Clientes</title>
+    <link rel="stylesheet" href="/Sprint integrantes/Pasta do Fabiano/stylefab.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Dados dos Clientes</h2>
+        <table id="customerTable">
+            <thead>
+                <tr>
+                    <th>Email</th>
+                    <th>Telefone</th>
+                    <th>CEP</th>
+                    <th>Número da Casa</th>
+                    <th>CPF</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Os dados dos clientes serão inseridos aqui -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Função para carregar os dados dos clientes do Local Storage
+        function loadCustomerData() {
+            const storedData = localStorage.getItem('customerData');
+            if (storedData) {
+                const customerData = JSON.parse(storedData);
+                const tbody = document.querySelector('#customerTable tbody');
+
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${customerData.email}</td>
+                    <td>${customerData.phone}</td>
+                    <td>${customerData.cep}</td>
+                    <td>${customerData.houseNumber}</td>
+                    <td>${customerData.cpf}</td>
+                `;
+                tbody.appendChild(tr);
+            } else {
+                const tbody = document.querySelector('#customerTable tbody');
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td colspan="5" style="text-align:center;">Nenhum dado encontrado.</td>
+                `;
+                tbody.appendChild(tr);
+            }
+        }
+
+        // Carregar os dados quando a página for carregada
+        window.onload = loadCustomerData;
+    </script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Venda</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            font-weight: bold;
+        }
+        .summary {
+            background-color: #e9ecef;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .payment-method {
+            margin-top: 10px;
+        }
+        .btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h2>Pedido de Venda</h2>
+    <form id="order-form">
+        <div class="form-group">
+            <label for="client-name">Nome do Cliente:</label>
+            <input type="text" id="client-name" name="client-name" required>
+        </div>
+        <div class="form-group">
+            <label for="client-phone">Telefone de Contato:</label>
+            <input type="tel" id="client-phone" name="client-phone" required>
+        </div>
+
+        <div class="summary">
+            <h3>Resumo da Compra</h3>
+            <!-- Aqui você pode adicionar dinamicamente os produtos escolhidos e o subtotal -->
+            <div id="order-summary">
+                <!-- Exemplo estático -->
+                <p>Produto 1: R$ 100,00</p>
+                <p>Produto 2: R$ 30,00</p>
+                <hr>
+                <p><strong>Subtotal: R$ 80,00</strong></p>
+            </div>
+        </div>
+
+        <div class="form-group payment-method">
+            <label for="payment-method">Forma de Pagamento:</label>
+            <select id="payment-method" name="payment-method" required>
+                <option value="">Selecione...</option>
+                <option value="boleto">Boleto Bancário</option>
+                <option value="cartao">Cartão de Crédito</option>
+                <option value="transferencia">Transferência Bancária</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn">Finalizar Compra</button>
+    </form>
+</body>
+</html>
+

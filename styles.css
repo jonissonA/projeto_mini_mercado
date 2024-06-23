@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-  --primary-color: #ffb667;
-  --text-dark: #2d2b2c;
-  --text-light: #767268;
+  --primary-color: #0bf3f3d8;
+  --text-dark: #f31282;
+  --text-light: #1a1405;
   --white: #ffffff;
   --max-width: 1200px;
 }
@@ -259,6 +259,7 @@ nav {
 .story {
   overflow: hidden;
 }
+
 
 .story__container {
   display: grid;
@@ -552,19 +553,12 @@ nav {
     width: unset;
     background-color: transparent;
   }
-
-  .nav__logo img {
-    max-width: 75px;
+  
+.logo-topo{
+  display:flex;
+  width: 800px;
+  padding-left: 525px;
   }
-
-  .logo-white {
-    display: none;
-  }
-
-  .logo-dark {
-    display: flex;
-  }
-
   .nav__menu__btn {
     display: none;
   }
@@ -649,4 +643,10 @@ label {
 input,
 label{
   margin: 0.4rem 0;
+}
+
+.icones-rodape{
+max-width: 50px;
+max-height: 50px;
+
 }
