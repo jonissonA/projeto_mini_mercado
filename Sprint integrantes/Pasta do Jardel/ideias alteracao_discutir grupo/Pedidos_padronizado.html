@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQkzO7oYqz6lFxN28u6f9fb2xDbD1L0W/2ltzlH2Ra4WZBbPqEqSMFWfMHOIVW5a8GA7BkEkA7ZgiIOdA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles_from.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="logosotteu1.png" alt="Logo da empresa">
+        </div>
+        <h2>Pedidos de Venda</h2>
+        <form action="#" method="post" class="form-group">
+            <div>
+                <label for="nome">Nome do Cliente:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div>
+                <label for="telefone">Telefone de contato:</label>
+                <input type="tel" id="tel" name="tel" required>
+            </div>
+            <div class="summary">
+                <h3>Resumo da Compra</h3>
+                <!-- Aqui você pode adicionar dinamicamente os produtos escolhidos e o subtotal -->
+                <div id="order-summary">
+                    <!-- Exemplo estático -->
+                    <p>Produto 1: R$ 100,00</p>
+                    <p>Produto 2: R$ 30,00</p>
+                    <hr>
+                    <p><strong>Subtotal: R$ 80,00</strong></p>
+                </div>
+            </div>
+            <div class="form-group payment-method">
+                <label for="payment-method">Forma de Pagamento:</label>
+                <select id="payment-method" name="payment-method" required>
+                    <option value="">Selecione...</option>
+                    <option value="boleto">Boleto Bancário</option>
+                    <option value="cartao">Cartão de Crédito</option>
+                    <option value="transferencia">Transferência Bancária</option>
+                </select>
+            </div>
+            <button type="submit">
+                <i class="fas fa-paper-plane"></i> Finalizar Compra
+            </button>
+        </form>
+    </div>
+</body>
+</html>
