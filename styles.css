@@ -222,7 +222,7 @@ nav {
   padding: 5px 1.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--text-dark);
   background-color: var(--primary-color);
 }
 
@@ -341,7 +341,7 @@ nav {
   padding: 5px 1.5rem;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--white);
+  color: var(--text-dark);
   background-color: var(--primary-color);
 }
 
