@@ -1,0 +1,176 @@
+<svg width="1138" height="778" viewBox="0 0 853.5 583.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="touch-action: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+<g id="graph0" class="graph" transform="translate(4,445) scale(1)">
+<title>G</title>
+<polygon fill="transparent" stroke="transparent" points="-4,4 -4,-445 550,-445 550,4 -4,4"></polygon>
+<!-- Cliente -->
+<g id="node1" class="node" style="opacity: 1;">
+<title>Cliente</title>
+<polygon fill="#232d95" stroke="transparent" points="412,-207 412,-225 546,-225 546,-207 412,-207"></polygon>
+<polygon fill="none" stroke="white" points="412,-207 412,-225 546,-225 546,-207 412,-207"></polygon>
+<text text-anchor="start" x="415" y="-214" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Cliente</text>
+<polygon fill="#404040" stroke="transparent" points="412,-189 412,-207 546,-207 546,-189 412,-189"></polygon>
+<polygon fill="none" stroke="white" points="412,-189 412,-207 546,-207 546,-189 412,-189"></polygon>
+<text text-anchor="start" x="415" y="-196" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="430.28" y="-196" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="437.28" y="-196" font-family="opensans" font-size="10.00" fill="white"> ID_Cliente INT</text>
+<polygon fill="#404040" stroke="transparent" points="412,-171 412,-189 546,-189 546,-171 412,-171"></polygon>
+<polygon fill="none" stroke="white" points="412,-171 412,-189 546,-189 546,-171 412,-171"></polygon>
+<text text-anchor="start" x="415" y="-177" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nome VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="412,-153 412,-171 546,-171 546,-153 412,-153"></polygon>
+<polygon fill="none" stroke="white" points="412,-153 412,-171 546,-171 546,-153 412,-153"></polygon>
+<text text-anchor="start" x="415" y="-159" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Email VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="412,-135 412,-153 546,-153 546,-135 412,-135"></polygon>
+<polygon fill="none" stroke="white" points="412,-135 412,-153 546,-153 546,-135 412,-135"></polygon>
+<text text-anchor="start" x="414.71" y="-141" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Telefone VARCHAR(20)</text>
+</g>
+<!-- Produto -->
+<g id="node2" class="node" style="opacity: 1;">
+<title>Produto</title>
+<polygon fill="#232d95" stroke="transparent" points="226,-234 226,-252 359,-252 359,-234 226,-234"></polygon>
+<polygon fill="none" stroke="white" points="226,-234 226,-252 359,-252 359,-234 226,-234"></polygon>
+<text text-anchor="start" x="229" y="-241" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Produto</text>
+<polygon fill="#404040" stroke="transparent" points="226,-216 226,-234 359,-234 359,-216 226,-216"></polygon>
+<polygon fill="none" stroke="white" points="226,-216 226,-234 359,-234 359,-216 226,-216"></polygon>
+<text text-anchor="start" x="229" y="-223" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="244.28" y="-223" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="251.28" y="-223" font-family="opensans" font-size="10.00" fill="white"> ID_Produto INT</text>
+<polygon fill="#404040" stroke="transparent" points="226,-198 226,-216 359,-216 359,-198 226,-198"></polygon>
+<polygon fill="none" stroke="white" points="226,-198 226,-216 359,-216 359,-198 226,-198"></polygon>
+<text text-anchor="start" x="229" y="-204" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nome VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="226,-180 226,-198 359,-198 359,-180 226,-180"></polygon>
+<polygon fill="none" stroke="white" points="226,-180 226,-198 359,-198 359,-180 226,-180"></polygon>
+<text text-anchor="start" x="229" y="-186" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Preço DECIMAL(10, 2)</text>
+<polygon fill="#404040" stroke="transparent" points="226,-162 226,-180 359,-180 359,-162 226,-162"></polygon>
+<polygon fill="none" stroke="white" points="226,-162 226,-180 359,-180 359,-162 226,-162"></polygon>
+<text text-anchor="start" x="228.77" y="-168" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Quantidade_Estoque INT</text>
+</g>
+<!-- Pedido -->
+<g id="node3" class="node" style="opacity: 1;">
+<title>Pedido</title>
+<polygon fill="#232d95" stroke="transparent" points="231,-342 231,-360 354,-360 354,-342 231,-342"></polygon>
+<polygon fill="none" stroke="white" points="231,-342 231,-360 354,-360 354,-342 231,-342"></polygon>
+<text text-anchor="start" x="234" y="-349" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Pedido</text>
+<polygon fill="#404040" stroke="transparent" points="231,-324 231,-342 354,-342 354,-324 231,-324"></polygon>
+<polygon fill="none" stroke="white" points="231,-324 231,-342 354,-342 354,-324 231,-324"></polygon>
+<text text-anchor="start" x="234" y="-331" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="249.28" y="-331" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="256.28" y="-331" font-family="opensans" font-size="10.00" fill="white"> ID_Pedido INT</text>
+<polygon fill="#404040" stroke="transparent" points="231,-306 231,-324 354,-324 354,-306 231,-306"></polygon>
+<polygon fill="none" stroke="white" points="231,-306 231,-324 354,-324 354,-306 231,-306"></polygon>
+<text text-anchor="start" x="234" y="-312" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Data DATE</text>
+<polygon fill="#404040" stroke="transparent" points="231,-288 231,-306 354,-306 354,-288 231,-288"></polygon>
+<polygon fill="none" stroke="white" points="231,-288 231,-306 354,-306 354,-288 231,-288"></polygon>
+<text text-anchor="start" x="234" y="-295" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="249.28" y="-295" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="256.28" y="-295" font-family="opensans" font-size="10.00" fill="white"> ID_Cliente INT</text>
+<polygon fill="#404040" stroke="transparent" points="231,-270 231,-288 354,-288 354,-270 231,-270"></polygon>
+<polygon fill="none" stroke="white" points="231,-270 231,-288 354,-288 354,-270 231,-270"></polygon>
+<text text-anchor="start" x="233.76" y="-276" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Status VARCHAR(20)</text>
+</g>
+<!-- Pedido&#45;&gt;Cliente -->
+<g id="edge1" class="edge" style="opacity: 1;">
+<title>Pedido:ID_Cliente-&gt;Cliente:ID_Cliente</title>
+<path fill="none" stroke="#5ea54a" d="M355,-297C401.81,-297 367.61,-212.86 401.75,-199.72"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="402.72,-203.11 412,-198 401.56,-196.2 402.72,-203.11"></polygon>
+</g>
+<!-- Item_Pedido -->
+<g id="node4" class="node" style="opacity: 1;">
+<title>Item_Pedido</title>
+<polygon fill="#232d95" stroke="transparent" points="0,-315 0,-333 172,-333 172,-315 0,-315"></polygon>
+<polygon fill="none" stroke="white" points="0,-315 0,-333 172,-333 172,-315 0,-315"></polygon>
+<text text-anchor="start" x="3" y="-322" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Item_Pedido</text>
+<polygon fill="#404040" stroke="transparent" points="0,-297 0,-315 172,-315 172,-297 0,-297"></polygon>
+<polygon fill="none" stroke="white" points="0,-297 0,-315 172,-315 172,-297 0,-297"></polygon>
+<text text-anchor="start" x="3" y="-304" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="18.28" y="-304" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-304" font-family="opensans" font-size="10.00" fill="white"> ID_Item_Pedido INT</text>
+<polygon fill="#404040" stroke="transparent" points="0,-279 0,-297 172,-297 172,-279 0,-279"></polygon>
+<polygon fill="none" stroke="white" points="0,-279 0,-297 172,-297 172,-279 0,-279"></polygon>
+<text text-anchor="start" x="3" y="-286" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.28" y="-286" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-286" font-family="opensans" font-size="10.00" fill="white"> ID_Pedido INT</text>
+<polygon fill="#404040" stroke="transparent" points="0,-261 0,-279 172,-279 172,-261 0,-261"></polygon>
+<polygon fill="none" stroke="white" points="0,-261 0,-279 172,-279 172,-261 0,-261"></polygon>
+<text text-anchor="start" x="3" y="-268" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="18.28" y="-268" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="25.28" y="-268" font-family="opensans" font-size="10.00" fill="white"> ID_Produto INT</text>
+<polygon fill="#404040" stroke="transparent" points="0,-243 0,-261 172,-261 172,-243 0,-243"></polygon>
+<polygon fill="none" stroke="white" points="0,-243 0,-261 172,-261 172,-243 0,-243"></polygon>
+<text text-anchor="start" x="3" y="-249" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Quantidade INT</text>
+<polygon fill="#404040" stroke="transparent" points="0,-225 0,-243 172,-243 172,-225 0,-225"></polygon>
+<polygon fill="none" stroke="white" points="0,-225 0,-243 172,-243 172,-225 0,-225"></polygon>
+<text text-anchor="start" x="2.55" y="-231" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Preço_Unitário DECIMAL(10, 2)</text>
+</g>
+<!-- Item_Pedido&#45;&gt;Produto -->
+<g id="edge3" class="edge" style="opacity: 1;">
+<title>Item_Pedido:ID_Produto-&gt;Produto:ID_Produto</title>
+<path fill="none" stroke="#5ea54a" d="M172,-270C199.04,-270 195.68,-235.55 215.12,-226.93"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="215.86,-230.36 225,-225 214.51,-223.49 215.86,-230.36"></polygon>
+</g>
+<!-- Item_Pedido&#45;&gt;Pedido -->
+<g id="edge2" class="edge" style="opacity: 1;">
+<title>Item_Pedido:ID_Pedido-&gt;Pedido:ID_Pedido</title>
+<path fill="none" stroke="#5ea54a" d="M172,-288C200.8,-288 198.53,-323.07 220.04,-331.29"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="219.55,-334.76 230,-333 220.74,-327.86 219.55,-334.76"></polygon>
+</g>
+<!-- Feedback -->
+<g id="node5" class="node" style="opacity: 1;">
+<title>Feedback</title>
+<polygon fill="#232d95" stroke="transparent" points="208,-126 208,-144 376,-144 376,-126 208,-126"></polygon>
+<polygon fill="none" stroke="white" points="208,-126 208,-144 376,-144 376,-126 208,-126"></polygon>
+<text text-anchor="start" x="211" y="-133" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Feedback</text>
+<polygon fill="#404040" stroke="transparent" points="208,-108 208,-126 376,-126 376,-108 208,-108"></polygon>
+<polygon fill="none" stroke="white" points="208,-108 208,-126 376,-126 376,-108 208,-108"></polygon>
+<text text-anchor="start" x="211" y="-115" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="226.28" y="-115" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="233.28" y="-115" font-family="opensans" font-size="10.00" fill="white"> ID_Feedback INT</text>
+<polygon fill="#404040" stroke="transparent" points="208,-90 208,-108 376,-108 376,-90 208,-90"></polygon>
+<polygon fill="none" stroke="white" points="208,-90 208,-108 376,-108 376,-90 208,-90"></polygon>
+<text text-anchor="start" x="211" y="-97" font-family="opensans" font-size="10.00" fill="#e2c044">FK </text>
+<text text-anchor="start" x="226.28" y="-97" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="233.28" y="-97" font-family="opensans" font-size="10.00" fill="white"> ID_Cliente INT</text>
+<polygon fill="#404040" stroke="transparent" points="208,-72 208,-90 376,-90 376,-72 208,-72"></polygon>
+<polygon fill="none" stroke="white" points="208,-72 208,-90 376,-90 376,-72 208,-72"></polygon>
+<text text-anchor="start" x="211" y="-78" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Data DATE</text>
+<polygon fill="#404040" stroke="transparent" points="208,-54 208,-72 376,-72 376,-54 208,-54"></polygon>
+<polygon fill="none" stroke="white" points="208,-54 208,-72 376,-72 376,-54 208,-54"></polygon>
+<text text-anchor="start" x="211" y="-60" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Comentário TEXT</text>
+<polygon fill="#404040" stroke="transparent" points="208,-36 208,-54 376,-54 376,-36 208,-36"></polygon>
+<polygon fill="none" stroke="white" points="208,-36 208,-54 376,-54 376,-36 208,-36"></polygon>
+<text text-anchor="start" x="211" y="-42" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Avaliação INT CHECK (</text>
+<polygon fill="#404040" stroke="transparent" points="208,-18 208,-36 376,-36 376,-18 208,-18"></polygon>
+<polygon fill="none" stroke="white" points="208,-18 208,-36 376,-36 376,-18 208,-18"></polygon>
+<text text-anchor="start" x="210.63" y="-24" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Avaliação BETWEEN 1 AND 5</text>
+<polygon fill="#404040" stroke="transparent" points="208,0 208,-18 376,-18 376,0 208,0"></polygon>
+<polygon fill="none" stroke="white" points="208,0 208,-18 376,-18 376,0 208,0"></polygon>
+<text text-anchor="start" x="211" y="-6" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;)</text>
+</g>
+<!-- Feedback&#45;&gt;Cliente -->
+<g id="edge4" class="edge" style="opacity: 1;">
+<title>Feedback:ID_Cliente-&gt;Cliente:ID_Cliente</title>
+<path fill="none" stroke="#5ea54a" d="M376,-99C418.8,-99 374.32,-181.72 402.11,-195.93"></path>
+<polygon fill="#5ea54a" stroke="#5ea54a" points="401.5,-199.38 412,-198 402.93,-192.53 401.5,-199.38"></polygon>
+</g>
+<!-- Usuario -->
+<g id="node6" class="node" style="opacity: 1;">
+<title>Usuario</title>
+<polygon fill="#232d95" stroke="transparent" points="4,-423 4,-441 169,-441 169,-423 4,-423"></polygon>
+<polygon fill="none" stroke="white" points="4,-423 4,-441 169,-441 169,-423 4,-423"></polygon>
+<text text-anchor="start" x="7" y="-430" font-family="opensans" font-weight="bold" font-size="10.00" fill="white">Usuario</text>
+<polygon fill="#404040" stroke="transparent" points="4,-405 4,-423 169,-423 169,-405 4,-405"></polygon>
+<polygon fill="none" stroke="white" points="4,-405 4,-423 169,-423 169,-405 4,-405"></polygon>
+<text text-anchor="start" x="7" y="-412" font-family="opensans" font-size="10.00" fill="#e2c044">PK </text>
+<text text-anchor="start" x="22.28" y="-412" font-family="opensans" font-size="10.00"> | </text>
+<text text-anchor="start" x="29.28" y="-412" font-family="opensans" font-size="10.00" fill="white"> ID_Usuario INT</text>
+<polygon fill="#404040" stroke="transparent" points="4,-387 4,-405 169,-405 169,-387 4,-387"></polygon>
+<polygon fill="none" stroke="white" points="4,-387 4,-405 169,-405 169,-387 4,-387"></polygon>
+<text text-anchor="start" x="6.93" y="-393" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Nome_Usuario VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="4,-369 4,-387 169,-387 169,-369 4,-369"></polygon>
+<polygon fill="none" stroke="white" points="4,-369 4,-387 169,-387 169,-369 4,-369"></polygon>
+<text text-anchor="start" x="7" y="-375" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Senha VARCHAR(100)</text>
+<polygon fill="#404040" stroke="transparent" points="4,-351 4,-369 169,-369 169,-351 4,-351"></polygon>
+<polygon fill="none" stroke="white" points="4,-351 4,-369 169,-369 169,-351 4,-351"></polygon>
+<text text-anchor="start" x="7" y="-357" font-family="opensans" font-size="10.00" fill="white"> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Tipo_Usuario VARCHAR(20)</text>
+</g>
+</g>
+</svg>
